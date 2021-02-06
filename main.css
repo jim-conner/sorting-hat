@@ -11,10 +11,11 @@ body {
 .studentContainer {
   display: flex;
   flex-flow: wrap;
+  justify-content: center;
 }
 
 .card {
-flex: 1 - 48%;
+flex: 0 1 25%;
 margin: 1%;
 text-align: center;
 border: 1px solid black;
