@@ -1,5 +1,8 @@
 # Sorting Hat
 
+##LOOM VIDEO
+https://www.loom.com/share/23d3deabc19446feb0acf15e7a9a70da
+
 ## Goals
 The goal of this project is to test your knowledge and to have a FUN time stretching yourself on your FIRST independent application that will become a part of your portfolio.
 
