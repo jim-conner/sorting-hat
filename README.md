@@ -1,6 +1,6 @@
 # Sorting Hat
 
-##LOOM VIDEO
+## LOOM VIDEO
 https://www.loom.com/share/23d3deabc19446feb0acf15e7a9a70da
 
 ## Goals
