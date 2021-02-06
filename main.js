@@ -1,5 +1,5 @@
 const students = [];
-let expelledArray = []; //will this become voldemort's army then?
+let expelledArray = []; //will this become voldemort's army then? - yes
 
 const showForm = () => {
   document.getElementById("formElement").style.display = "block";
@@ -54,7 +54,6 @@ const getFormInfo = (e) => {
   const obj = {
     name,
     house,
-    // id,  //still need to finsh id
   };
 
   students.push(obj);

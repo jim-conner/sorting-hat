@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,shrink-to-fit=no"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,7 +22,7 @@
       <div class="container">
         <h1 class="display-4">Welcome to Hogwarts!</h1>
         <p class="lead">
-          <strong>First-years, now begins the Sorting Ceremony.</strong> 
+          <strong>First-years, now begins the Sorting Ceremony.</strong>
         </p>
         <hr class="my-4" />
 
@@ -28,33 +31,33 @@
           href="#"
           type="button"
           onclick="showForm()"
-        >START SORTING
+        >
+          START SORTING
         </button>
-      
       </div>
     </div>
 
     <!-- FORM -->
     <div class="form-container p-4 text-center">
-      <form id="formElement" style="display: none">
-        <div class="form-group"  >
-          <input
-            required
-            type="text"
-            class="form-control"
-            id="student-name"
-            placeholder="Student Name Here"
-            />
-        </div>
-        <button type="button" class="btn btn-primary mb-2" id="sort">SORT</button>
-      </form>
+    <form 
+      name=student-form
+      id="formElement"
+      style="display: none"
+      action="/action_page.php"
+    >
+      <input
+        name="student-name"
+        type="text"
+        id="student-name"
+        placeholder="Student Name Here"
+        required
+      />
+      <button type="submit" class="btn btn-primary mb-2" id="sort">SORT</button>
+    </form>
     </div>
 
     <!-- STUDENT CONTAINER -->
-    <div id="studentContainer" class="studentContainer" d-flex p-4>
-
-    </div>
-
+    <div id="studentContainer" class="studentContainer" d-flex p-4></div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
