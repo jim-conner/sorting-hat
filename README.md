@@ -9,8 +9,8 @@ The user is able to add a student name of their choice, which creates a card,
 and they they are able to delete the card they choose.
 
 ### Features:
-Click "Sort" button to add student to a random house
-Click "Expel" button to delete student from Hogwarts School
+- Click "Sort" button to add student to a random house
+- Click "Expel" button to delete student from Hogwarts School
 
 ## Pet Adoption Project Board
 https://github.com/jim-conner/sorting-hat/projects/1
